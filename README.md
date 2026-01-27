@@ -1,4 +1,4 @@
-# :yin_yang: Teaser Site Template for CoderDojo Conferences like [DojoCon](https://dojocon.coderdojo.jp/) / [DecaDojo](https://decadojo.coderdojo.jp/)
+# :yin_yang: DojoCon Japan 2026 Teaser Site
 
 [![Screenshot of Teaser Site](https://github.com/coderdojo-japan/teaser-template.coderdojo.jp/blob/main/images/readme-cover.gif?raw=true)](https://teaser-template.coderdojo.jp/)
 
