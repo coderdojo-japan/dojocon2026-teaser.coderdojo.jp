@@ -164,6 +164,63 @@
       }
 
       /* ===== Footer Section ===== */
+      /* ===== Keynote Section ===== */
+      .keynote {
+        background: #001a33;
+        color: #fff;
+        text-align: center;
+        padding: 4rem 1rem;
+      }
+
+      .keynote-label {
+        font-family: "Space Mono", monospace;
+        font-size: clamp(0.8rem, 2vw, 1rem);
+        letter-spacing: 0.2em;
+        opacity: 0.7;
+        margin-bottom: 0.5rem;
+      }
+
+      .keynote-heading {
+        font-family: "Space Mono", monospace;
+        font-size: clamp(1.4rem, 4vw, 2.5rem);
+        font-weight: bold;
+        letter-spacing: 0.05em;
+        margin: 0 0 2.5rem;
+      }
+
+      .keynote-photo {
+        width: clamp(120px, 20vw, 180px);
+        height: clamp(120px, 20vw, 180px);
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top;
+        margin-bottom: 1.5rem;
+      }
+
+      .keynote-name {
+        font-size: clamp(1.1rem, 3vw, 1.6rem);
+        font-weight: bold;
+        margin: 0 0 0.5rem;
+      }
+
+      .keynote-title {
+        font-size: clamp(0.85rem, 2vw, 1.1rem);
+        opacity: 0.8;
+        margin: 0 0 1.5rem;
+      }
+
+      .keynote-link a {
+        color: #fff;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+        font-size: clamp(0.8rem, 1.8vw, 1rem);
+        opacity: 0.8;
+      }
+
+      .keynote-link a:hover {
+        opacity: 1;
+      }
+
       .footer {
         background: #002244;
         color: #fff;
@@ -215,7 +272,23 @@
             >
           </p>
           <p class="fade-in hero-theme">テーマ: わかちあう、わかりあう</p>
+          <p class="fade-in hero-venue" style="margin-top: 2rem">
+            <a href="#keynote">基調講演についてはこちら &darr;</a>
+          </p>
         </div>
+      </section>
+      <!-- Keynote Section -->
+      <section id="keynote" class="keynote">
+        <p class="keynote-label">KEYNOTE SPEAKER</p>
+        <h2 class="keynote-heading">基調講演</h2>
+        <img src="/images/keynote-ueda.jpg" class="keynote-photo" alt="上田 信行" />
+        <p class="keynote-name">上田 信行 / ウエダノブユキ</p>
+        <p class="keynote-title">同志社女子大学名誉教授、ネオミュージアム館長</p>
+        <p class="keynote-link">
+          <a href="https://nobuyukiueda.com/about" target="_blank" rel="noopener noreferrer">
+            &raquo; プロフィール詳細を見る
+          </a>
+        </p>
       </section>
     </main>
 
